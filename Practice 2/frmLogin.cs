@@ -21,7 +21,7 @@ namespace Practice_2
         {
             string username = "user";
             string password = "pass";
-            if (tbxPassword.TextLength == 0 && tbxPassword.TextLength == 0)
+            if (string.IsNullOrEmpty(tbxUsername.Text) || string.IsNullOrEmpty(tbxPassword.Text))
             {
                 MessageBox.Show("You need to enter a username and password to log in.", "Error");
                 return;
