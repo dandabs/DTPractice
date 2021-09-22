@@ -47,6 +47,7 @@ namespace Practice_2
             // 
             this.tbxPassword.Location = new System.Drawing.Point(12, 152);
             this.tbxPassword.Name = "tbxPassword";
+            this.tbxPassword.PasswordChar = '*';
             this.tbxPassword.Size = new System.Drawing.Size(266, 20);
             this.tbxPassword.TabIndex = 1;
             // 
